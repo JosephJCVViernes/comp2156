@@ -6,3 +6,6 @@ echo "Last updated: $(date)" >> workflow-trigger.txt
 git add workflow-trigger.txt
 git commit -m "Triggering CI run for screenshot S3"
 git push origin main
+
+# GitHub Action Status Badge
+[![CI](https://github.com/JosephJCVViernes/comp2156/actions/workflows/ci.yml/badge.svg)](https://github.com//JosephJCVViernes/comp2156/actions/workflows/ci.yml)
